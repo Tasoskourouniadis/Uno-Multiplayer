@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1885" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/back.xml" value="0.212" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/button_error_background.xml" value="0.242" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/button_neutral_background.xml" value="0.242" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/button_success_background.xml" value="0.242" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/button_warning_background.xml" value="0.242" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/dialog_background.xml" value="0.242" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/done.xml" value="0.1965" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/error.xml" value="0.1965" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/error_background.xml" value="0.242" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/ic_baseline_highlight_off_24.xml" value="0.2555" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/ic_launcher_background.xml" value="0.216" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/list_item.xml" value="0.1965" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/round_corners_text_view.xml" value="0.1965" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/splash_screen_background.xml" value="0.2425" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/success_background.xml" value="0.242" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/warning.xml" value="0.2555" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/drawable/warning_background.xml" value="0.242" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/activity_card_module.xml" value="0.3020833333333333" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/activity_custom_alert_dialog.xml" value="0.2359375" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/activity_end_game.xml" value="0.3442028985507246" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/activity_game_room.xml" value="0.25" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/activity_main2.xml" value="0.18059777102330293" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/activity_main3.xml" value="0.33" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/activity_playing_room.xml" value="0.2713541666666667" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/activity_room_selection.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/activity_splash.xml" value="0.2359375" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/activity_splash2.xml" value="0.25" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/activity_waiting_room.xml" value="0.33" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/activity_waiting_room_module.xml" value="0.33" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/custom_list_item.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/layout_error_dialog.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/layout_success_dialog.xml" value="0.2604166666666667" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/layout_warning_dialog.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/Tasos/Downloads/MultiplayerTest/app/src/main/res/layout/list_item.xml" value="0.28541666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

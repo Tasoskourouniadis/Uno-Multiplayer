@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parentConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uno_background"
+    tools:context=".GameRoom">
+
+
+    <com.example.multiplayertest.WaitingRoomModule
+        android:id="@+id/playerPlayerModule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.example.multiplayertest.WaitingRoomModule>
+
+    <ImageView
+        android:id="@+id/playerEventImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/playerPlayerModule"
+        app:layout_constraintTop_toTopOf="@+id/playerPlayerModule"
+        app:srcCompat="@drawable/draw_four_36" />
+
+    <com.example.multiplayertest.WaitingRoomModule
+        android:id="@+id/guestPlayerModule1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="132dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.example.multiplayertest.WaitingRoomModule>
+
+    <ImageView
+        android:id="@+id/opponentEventImageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/guestPlayerModule1"
+        app:layout_constraintTop_toTopOf="@+id/guestPlayerModule1"
+        app:srcCompat="@drawable/draw_four_36" />
+
+    <com.example.multiplayertest.WaitingRoomModule
+        android:id="@+id/guestPlayerModule2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </com.example.multiplayertest.WaitingRoomModule>
+
+    <ImageView
+        android:id="@+id/opponentEventImageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/guestPlayerModule2"
+        app:layout_constraintTop_toTopOf="@+id/guestPlayerModule2"
+        app:srcCompat="@drawable/draw_four_36" />
+
+    <com.example.multiplayertest.WaitingRoomModule
+        android:id="@+id/guestPlayerModule3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="236dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+    </com.example.multiplayertest.WaitingRoomModule>
+
+    <ImageView
+        android:id="@+id/opponentEventImageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/guestPlayerModule3"
+        app:layout_constraintTop_toTopOf="@+id/guestPlayerModule3"
+        app:srcCompat="@drawable/draw_four_36" />
+
+    <ImageView
+        android:id="@+id/cardPileImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/red_1" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rotationIndicatorConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/rotationIndicatorImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/rotation_blue" />
+
+        <ImageView
+            android:id="@+id/cardEventImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/rotationIndicatorImageView"
+            app:layout_constraintEnd_toEndOf="@+id/rotationIndicatorImageView"
+            app:layout_constraintStart_toStartOf="@+id/rotationIndicatorImageView"
+            app:layout_constraintTop_toTopOf="@+id/rotationIndicatorImageView"
+            app:srcCompat="@drawable/draw_four_128" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/changeColourConstrainLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/greenColourImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/yellowColourImageView"
+            app:layout_constraintTop_toBottomOf="@+id/blueColourImageView"
+            app:srcCompat="@drawable/change_colour_green" />
+
+        <ImageView
+            android:id="@+id/redColourImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/change_colour_red" />
+
+        <ImageView
+            android:id="@+id/blueColourImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@+id/redColourImageView"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/change_colour_blue" />
+
+        <ImageView
+            android:id="@+id/yellowColourImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="@+id/redColourImageView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/redColourImageView"
+            app:srcCompat="@drawable/change_colour_yellow" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/cardDeckImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/uno_deck" />
+
+    <ImageView
+        android:id="@+id/unoImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="52dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/uno_logo" />
+
+
+    <com.example.multiplayertest.mRelativeLayout
+        android:id="@+id/cardLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:clipChildren="false"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/unoImageButton"
+        app:layout_constraintStart_toEndOf="@+id/playerPlayerModule"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </com.example.multiplayertest.mRelativeLayout>
+
+    <ImageView
+        android:id="@+id/restrictedActionImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/unoImageButton"
+        app:layout_constraintStart_toEndOf="@+id/playerPlayerModule"
+        app:srcCompat="@drawable/ic_baseline_highlight_off_24" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
