@@ -14,7 +14,8 @@ This is an Android mobile application that implements the classic card game Uno.
     <li>Firebase Realtime Database</li>
     <li>Adobe Photoshop (for some graphics)</li>
  </ul>
-# Getting Started
+# Getting Started!
+
 <ol>
   <li>Clone the repository to your local machine.</li>
   <li>Open the project in Android Studio.</li>
@@ -24,7 +25,9 @@ This is an Android mobile application that implements the classic card game Uno.
    
 </ol>
 # Screenshots
+<br><br>
 
+[In Game Screenshot](https://user-images.githubusercontent.com/59180473/233842622-56a47435-84e7-4b22-83cf-270d11e63c26.png)
 
 # Disclaimer
 
