@@ -27,7 +27,7 @@ This is an Android mobile application that implements the classic card game Uno.
 # Screenshots
 <br><br>
 
-[In Game Screenshot](https://user-images.githubusercontent.com/59180473/233842622-56a47435-84e7-4b22-83cf-270d11e63c26.png)
+![In Game Screenshot](https://user-images.githubusercontent.com/59180473/233842622-56a47435-84e7-4b22-83cf-270d11e63c26.png)
 
 # Disclaimer
 
