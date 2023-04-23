@@ -4,11 +4,9 @@ This is an Android mobile application that implements the classic card game Uno.
 
 # Features
 <ul>
-    <li>Single player mode against the computer</li>
     <li>Multiplayer mode with up to 4 players</li>
     <li>Rules and instructions of the game</li>
     <li>Sound effects</li>
-    <li>User authentication and storage of game history on Firebase Realtime Database</li>
 </ul>
 # Technologies Used
 <ul>
@@ -27,9 +25,7 @@ This is an Android mobile application that implements the classic card game Uno.
 </ol>
 # Screenshots
 
-Uno Android App Screenshot 1
 
-Uno Android App Screenshot 2
 # Disclaimer
 
 This project uses media that I do not own and is not intended for any commercial use. It is solely for demo purposes.
