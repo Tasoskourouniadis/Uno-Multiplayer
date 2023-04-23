@@ -19,7 +19,7 @@ This is an Android mobile application that implements the classic card game Uno.
   <li>Clone the repository to your local machine.</li>
   <li>Open the project in Android Studio.</li>
   <li>Create your own Firebase (Realtime Database) Project.</li>
-  <li>Import your *google-services.json* file (Following firebase instructions).</li>
+    <li>Import your <em>google-services.json</em> file (Following firebase instructions).</li>
   <li>Run the application on an emulator or an Android device.</li>
    
 </ol>
